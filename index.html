@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Website</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+  <!--Bootstrap css link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!--Icon link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+</head>
+
+<body>
+  <!----------------------Navbar Section------------------------------->
+
+  <nav id="navbar" class="navbar navbar-expand-lg sticky-top bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="Images/logo.svg" alt="logo" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto mt-3">
+          <a class="nav-link  mx-2" href="#Hero">Home</a>
+          <a class="nav-link  mx-2" href="#About">About</a>
+          <a class="nav-link  mx-2" href="#Services">Services</a>
+          <a class="nav-link  mx-2" href="#Destination">Destination</a>
+          <a class="nav-link  mx-2" href="#Contact">Contact</a>
+        </div>
+      </div>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 mx-4 mt-2 custom-input" type="search" placeholder="Type here..."
+          aria-label="Search" />
+        <button class="btn btn-outline-success mt-2 custom-button" type="submit">
+          Search
+        </button>
+      </form>
+    </div>
+  </nav>
+
+  <!------------------------------------Hero page Section------------------------------------->
+
+  <div id="Hero" class="col-12 min-vh-100 text-center align-items-center d-flex">
+    <div class="container">
+      <div class="col-12">
+        <div>
+          <h1 class="heroheading">
+            Discover Amazing<br />
+            Place With Us.
+          </h1>
+          <p class="herotext">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam
+            cumque ut non placeat eius molestias nobis sequi maiores, itaque
+            est facilis nemo autem consequatur magni assumenda, necessitatibus
+            velit molestiae porro nesciunt modi. Error, voluptatem delectus?
+          </p>
+        </div>
+        <div>
+          <button type="button" id="btn1" class="btn btn-primary">
+            Join Us
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-------------------------------------------About Us Section-------------------------------------->
+
+  <div id="About" class="section">
+    <div class="col-lg-12">
+      <div class="row">
+        <div class="col-lg-6">
+          <img id="pic1" class="mx-auto d-flex" src="Images/about.jpg" alt="picture" />
+        </div>
+        <div class="col-lg-5">
+          <h2 class="about">About Us</h2>
+          <p class="abouttxt">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
+            minima assumenda. Culpa, quam. Quos ipsam totam voluptatum ab
+            ipsa. Autem a debitis atque porro ducimus molestiae pariatur saepe
+            ex blanditiis.
+          </p>
+          <div class="d-flex">
+            <div class="iconbox px-3">
+              <i class="ri-money-dollar-box-line"></i>
+            </div>
+            <div>
+              <h5 id="about_topic" class="mx-3">Competitive pricing</h5>
+              <p id="about_topic_txt" class="mx-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci dolor repudiandae odit optio blanditiis quasi nihil
+                praesentium, eveniet harum voluptate quos. Ipsa nam ab
+                provident quaerat optio accusamus commodi quod.
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="iconbox px-3">
+              <i class="ri-award-line"></i>
+            </div>
+            <div>
+              <h5 id="about_topic" class="mx-3">Best services</h5>
+              <p id="about_topic_txt" class="mx-3">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Alias consequatur, voluptate velit beatae, illo quam ducimus
+                et ad doloremque aperiam laudantium assumenda quod molestias a
+                dolorum, dolor earum officia natus!
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="iconbox px-3">
+              <i class="ri-global-line"></i>
+            </div>
+            <div>
+              <h5 id="about_topic" class="mx-3">World wide coverage</h5>
+              <p id="about_topic_txt" class="mx-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Optio, impedit deleniti rem commodi quidem, autem velit sit
+                molestiae possimus error saepe et aspernatur! Inventore,
+                repellendus ad ipsum debitis exercitationem accusamus!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---------------------------------------Service Section---------------------------------------->
+
+  <div id="Services" class="section">
+    <div class="container">
+      <h2 id="service">Services</h2>
+      <p id="servicetxt">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ullam
+        porro nisi iusto, quia perspiciatis pariatur <br />corrupti ad
+        mollitia maxime nobis debitis tenetur. Vel animi sint quasi eum
+        impedit provident<br />
+        magnam quisquam dolore quaerat maxime.
+      </p>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+        <div class="col ">
+          <div class="card h-100" id="service-card">
+            <div class="new-icon" >
+              <i id="service_icon" class="ri-map-pin-line" style="font-size: 45px;"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Travel Guide</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique molestiae architecto unde fugit qui voluptate aspernatur corrupti voluptates nam. Eum assumenda ipsa neque expedita amet.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" id="service-card">
+            <div class="new-icon">
+              <i id="service_icon" class="ri-ticket-line" style="font-size: 45px;"></i></div>
+            <div class="card-body">
+              <h5 class="card-title" >Ticket Booking</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique molestiae architecto unde fugit qui voluptate aspernatur corrupti voluptates nam. Eum assumenda ipsa neque expedita amet.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" id="service-card">
+            <div class="new-icon">
+              <i id="service_icon" class="ri-hotel-line" style="font-size: 45px;"></i></div>
+            <div class="card-body">
+              <h5 class="card-title">Hotel Booking</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique molestiae architecto unde fugit qui voluptate aspernatur corrupti voluptates nam. Eum assumenda ipsa neque expedita amet.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!---------------------------------------------Destination Section--------------------------------------->
+
+  <div id="Destination" class="section">
+    <div class="container">
+      <h2 id="destination">Destinations</h2>
+
+      <div class="content-box1">
+        <div class="card mx-3" style="width: 18rem">
+          <img id="des-img" src="Images/bali.jpg" class="card-img-top" alt="bali" />
+          <div class="card-body">
+            <h5 class="card-title">Bali</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptas ad soluta eaque alias consequuntur placeat nulla autem.
+            </p>
+            <a href="#" id="btn2" class="btn btn-primary">Read More.!</a>
+          </div>
+        </div>
+
+        <div class="card mx-3" style="width: 18rem">
+          <img id="des-img" src="Images/srilanka.jpg" class="card-img-top" alt="sri lanka" />
+          <div class="card-body">
+            <h5 class="card-title">Sri Lanka</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Assumenda voluptatem velit neque natus minus fugiat a quas
+              quidem.
+            </p>
+            <a href="#" id="btn2" class="btn btn-primary">Read More.!</a>
+          </div>
+        </div>
+
+        <div class="card mx-3" style="width: 18rem">
+          <img id="des-img" src="Images/india.jpg" class="card-img-top" alt="india" />
+          <div class="card-body">
+            <h5 class="card-title">India</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+              veniam itaque molestias est eum dolorum voluptates vero saepe.
+            </p>
+            <a href="#" id="btn2" class="btn btn-primary">Read More.!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-box2">
+        <div class="card mx-3" style="width: 18rem">
+          <img id="des-img" src="Images/dubai.jpg" class="card-img-top" alt="dubai" />
+          <div class="card-body">
+            <h5 class="card-title">Dubai</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              illo sequi incidunt voluptatum iste nihil reprehenderit,
+              dignissimos.
+            </p>
+            <a href="#" id="btn2" class="btn btn-primary">Read More.!</a>
+          </div>
+        </div>
+
+        <div class="card mx-3 " style="width: 18rem">
+          <img id="des-img" src="Images/maldives.jpg" class="card-img-top" alt="maldives" />
+          <div class="card-body">
+            <h5 class="card-title">Maldives</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure
+              suscipit placeat rem deserunt, et quis sit ullam sed vitae
+              inventore?
+            </p>
+            <a href="#" id="btn2" class="btn btn-primary">Read More.!</a>
+          </div>
+        </div>
+
+        <div class="card mx-3" style="width: 18rem">
+          <img id="des-img" src="Images/singapore.jpg" class="card-img-top" alt="singapore" />
+          <div class="card-body">
+            <h5 class="card-title">Singapore</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+              esse laudantium soluta mollitia modi dolore earum voluptates.
+            </p>
+            <a href="#" id="btn2" class="btn btn-primary">Read More.!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-----------------------------------------------Contact Section------------------------------------------>
+
+  <div id="Contact" class="section">
+    <div class="col-lg-12">
+      <div class="row">
+        <h2 id="contact">Contact</h2>
+        <div class="col-lg-6">
+          <div class="d-flex">
+            <div class="contact-iconbox px-3">
+              <i class="ri-map-pin-fill"></i>
+            </div>
+            <div>
+              <h5 id="address" class="mx-3">Address</h5>
+              <p id="address-txt" class="mx-3">
+                175 Main Street,<br />Colombo-11.
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="contact-iconbox px-3">
+              <i class="ri-mail-fill"></i>
+            </div>
+            <div>
+              <h5 id="email" class="mx-3">Email</h5>
+              <p id="email-txt" class="mx-3">travelease@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="contact-iconbox px-3">
+              <i class="ri-phone-fill"></i>
+            </div>
+            <div>
+              <h5 id="phone" class="mx-3">Phone</h5>
+              <p id="phone-txt" class="mx-3">+9470 237 5050</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <h5 id="send-msg">Send Message</h5>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Enter your email</label>
+            <input type="email" class="form-control" id="Inputemail" placeholder="example@gmail.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Enter your message</label>
+            <textarea class="form-control" id="Textarea" rows="3" placeholder="Writting something..."></textarea>
+          </div>
+          <button id="btn3" type="button" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--------------------------------------------Footer Section-------------------------------------->
+
+  <div class="section">
+
+
+    <footer class="text-center text-lg-start text-white" style="background-color: #45526e">
+
+      <div class="container p-4 pb-0">
+
+        <section class="">
+
+          <div class="row">
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 id="websitename" class="text-uppercase mb-4 font-weight-bold">
+                TravelEase
+              </h6>
+              <p id="websitetxt">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas aliquid, sapiente tempore maiores
+                veritatis temporibus officiis natus eos cumque suscipit!
+              </p>
+            </div>
+
+
+            <hr class="w-100 clearfix d-md-none" />
+
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 id="footerservice" class="text-uppercase mb-4 font-weight-bold">Services</h6>
+              <p id="fservices-txt">
+                <a class="text-white" href="#Services">Travel Guide</a>
+              </p>
+              <p id="fservices-txt">
+                <a class="text-white" href="#Services">Ticket Booking</a>
+              </p>
+              <p id="fservices-txt">
+                <a class="text-white" href="#Services">Hotel Booking</a>
+              </p>
+            </div>
+
+
+            <hr class="w-100 clearfix d-md-none" />
+
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 id="usefullinks" class="text-uppercase mb-4 font-weight-bold">
+                Useful links
+              </h6>
+              <p id="linktxt">
+                <a class="text-white" href="#Hero">Home</a>
+              </p>
+              <p id="linktxt">
+                <a class="text-white" href="#About">About</a>
+              </p>
+              <p id="linktxt">
+                <a class="text-white" href="#Services">Services</a>
+              </p>
+              <p id="linktxt">
+                <a class="text-white" href="#Destination">Destination</a>
+              </p>
+              <p id="linktxt">
+                <a class="text-white" href="#Contact">Contact</a>
+              </p>
+            </div>
+
+
+            <hr class="w-100 clearfix d-md-none" />
+
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 id="fcontact" class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p id="fcontact-txt"><i class="ri-map-pin-fill"></i> 175 Main Street,Colombo-11.</p>
+              <p id="fcontact-txt"><i class="ri-mail-fill"></i> travelease@gmail.com</p>
+              <p id="fcontact-txt"><i class="ri-phone-fill"></i></i>+9470 237 5050</p>
+            </div>
+
+          </div>
+
+        </section>
+
+
+        <hr class="my-3">
+
+
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+
+              <div class="p-3">
+                © 2023 Copyright:
+                <a class="text-white" href="index.html">travelease.com</a>
+              </div>
+
+            </div>
+
+
+
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <!-- Facebook -->
+              <a id="footer-icon" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                  class="ri-facebook-line"></i></a>
+
+              <!-- Twitter -->
+              <a id="footer-icon" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                  class="ri-twitter-line"></i></a>
+
+              <!-- Google -->
+              <a id="footer-icon" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                  class="ri-google-line"></i></a>
+
+              <!-- Instagram -->
+              <a id="footer-icon" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                  class="ri-instagram-line"></i></a>
+            </div>
+
+          </div>
+        </section>
+
+      </div>
+
+    </footer>
+
+  </div>
+
+
+  <!--Bootstrap JS link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

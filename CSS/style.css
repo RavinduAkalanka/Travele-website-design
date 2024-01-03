@@ -1,0 +1,436 @@
+/*---------------------------color and font variable setup----------------------------*/
+:root {
+    --font-base: sans-serif;
+    --primary-color: #f4c430;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --navbar-color: #faf9f6;
+    --footer-color: lightslategray;
+  }
+  body {
+    font-family: var(--font-base);
+  }
+  
+  .section {
+    padding-top: 120px;
+  }
+  
+  /*---------------------------------Navbar setup---------------------------------------*/
+  
+  #navbar {
+    background-color: var(--navbar-color) !important;
+  }
+  
+  .navbar-nav a {
+    font-family: var(--font-base);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--black-color);
+  }
+  
+  .navbar-nav a:hover {
+    color: var(--primary-color);
+  }
+  
+  /*--search input field setup--*/
+  
+  .custom-input::placeholder {
+    color: var(--black-color) !important;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--font-base);
+    margin-left: 5px;
+  }
+  
+  form input.custom-input {
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-color: var(--primary-color);
+  }
+  
+  .form-control.custom-input:focus {
+    border-color: var(--primary-color);
+    box-shadow: none;
+  }
+  
+  /*--search button setup--*/
+  
+  form button.custom-button {
+    font-family: var(--font-base);
+    font-size: 15px;
+    color: var(--black-color);
+    border-color: var(--primary-color);
+    border-width: 2px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: var(--primary-color);
+  }
+  
+  form button.custom-button:hover,
+  form button.custom-button:not(:disabled):not(.disabled):active {
+    color: var(--white-color);
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+  }
+  
+  /*----------------------------------Hero Sevtion setup----------------------------------*/
+  
+  #Hero {
+    background: url(../Images/background1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .heroheading {
+    font-size: 85px;
+    font-weight: 700;
+    color: var(--white-color);
+    font-family: var(--font-base);
+  }
+  
+  .herotext {
+    font-family: var(--font-base);
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  #btn1 {
+    background-color: var(--primary-color);
+    color: var(--black-color);
+    border-color: var(--primary-color);
+    font-family: var(--font-base);
+    font-size: 17px;
+    width: 100px;
+    height: 40px;
+  }
+  
+  #btn1:hover {
+    color: var(--white-color);
+  }
+  
+  /*----------------------------------------About us setup------------------------------------------*/
+  
+  .about {
+    font-family: var(--font-base);
+    color: var(--black-color);
+    font-weight: 700;
+  }
+  
+  .abouttxt {
+    font-family: var(--font-base);
+    color: var(--black-color);
+    font-weight: 400;
+    font-size: 17px;
+  }
+  
+  .iconbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: var(--black-color);
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  
+  #pic1 {
+    width: 350px;
+    height: 500px;
+    margin-left: 230px;
+    margin-top: 50px;
+  }
+  
+  #about_topic {
+    font-family: var(--font-base);
+    font-size: 21px;
+    color: var(--black-color);
+    font-weight: 550;
+  }
+  
+  #about_topic_txt {
+    font-family: var(--font-base);
+    font-size: 17px;
+    color: var(--black-color);
+    font-weight: 400;
+  }
+  
+  /*-------------------------------------------Services setup----------------------------------------*/
+  
+  #service {
+    font-family: var(--font-base);
+    color: var(--black-color);
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  #servicetxt {
+    font-family: var(--font-base);
+    font-size: 17px;
+    color: var(--black-color);
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  #Services .card{
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #Services #service-card:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+  }
+  
+  #Services #service-card:hover .card-text {
+    color: var(--white-color);
+  }
+  
+  
+  
+  /*-------------------------------------Destination setup--------------------------------------------*/
+  
+  #destination {
+    font-family: var(--font-base);
+    color: var(--black-color);
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .content-box1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .content-box2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  #des-img {
+    height: 200px;
+  }
+  
+  .card-title {
+    font-family: var(--font-base);
+    color: var(--black-color);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-family: var(--font-base);
+    color: var(--black-color);
+    font-size: 17px;
+    font-weight: 400;
+  }
+  
+  #btn2 {
+    background-color: var(--primary-color);
+    color: var(--black-color);
+    border-color: var(--primary-color);
+    font-family: var(--font-base);
+    font-size: 17px;
+  }
+  
+  #btn2:hover {
+    color: var(--white-color);
+    
+  }
+  
+  .card {
+    transition: box-shadow 0.3s;
+  }
+  
+  
+  #Destination .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  
+  /*-----------------------------------------Contact setup--------------------------------------------*/
+  
+  #contact {
+    font-family: var(--font-base);
+    color: var(--black-color);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .contact-iconbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: var(--black-color);
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  
+  #address {
+    font-family: var(--font-base);
+    font-size: 21px;
+    color: var(--black-color);
+    font-weight: 550;
+    margin-top: 20px;
+  }
+  
+  #address-txt {
+    font-family: var(--font-base);
+    font-size: 17px;
+    color: var(--black-color);
+    font-weight: 400;
+  }
+  
+  #email {
+    font-family: var(--font-base);
+    font-size: 21px;
+    color: var(--black-color);
+    font-weight: 550;
+    margin-top: 20px;
+  }
+  
+  #email-txt {
+    font-family: var(--font-base);
+    font-size: 17px;
+    color: var(--black-color);
+    font-weight: 400;
+  }
+  
+  #phone {
+    font-family: var(--font-base);
+    font-size: 21px;
+    color: var(--black-color);
+    font-weight: 550;
+    margin-top: 20px;
+  }
+  
+  #phone-txt {
+    font-family: var(--font-base);
+    font-size: 17px;
+    color: var(--black-color);
+    font-weight: 400;
+  }
+  
+  #send-msg {
+    font-family: var(--font-base);
+    font-size: 21px;
+    color: var(--black-color);
+    font-weight: 550;
+    text-align: center;
+  }
+  
+  .form-label {
+    font-family: var(--font-base);
+    font-size: 17px;
+    color: var(--black-color);
+    font-weight: 400;
+  }
+  
+  #btn3 {
+    background-color: var(--primary-color);
+    font-size: 17px;
+    font-family: var(--font-base);
+    color: var(--black-color);
+    border: none;
+  }
+  
+  #Inputemail {
+    border-color: var(--black-color);
+  }
+  
+  #Textarea {
+    border-color: var(--black-color);
+  }
+  
+  #Inputemail:focus {
+    border-color: var(--black-color);
+    box-shadow: none;
+  }
+  
+  #Textarea {
+    border-color: var(--black-color);
+    box-shadow: none;
+  }
+  
+  #btn3:hover {
+    color: var(--white-color);
+  }
+  
+  /*-----------------------------------------Footer setup--------------------------------------------*/
+  
+  footer {
+    background-color: var(--footer-color) !important;
+  }
+  
+  #websitename {
+    font-family: var(--font-base);
+    color: var(--white-color);
+    font-size: 18px;
+  }
+  
+  #websitetxt {
+    font-family: var(--font-base);
+    color: var(--white-color);
+    font-size: 17px;
+  }
+  
+  #footerservice {
+    font-family: var(--font-base);
+    color: var(--white-color);
+    font-size: 18px;
+  }
+  
+  #fservices-txt {
+    font-family: var(--font-base);
+    color: var(--white-color);
+    font-size: 17px;
+  }
+  
+  #usefullinks {
+    font-family: var(--font-base);
+    color: var(--white-color);
+    font-size: 18px;
+  }
+  
+  #linktxt {
+    font-family: var(--font-base);
+    color: var(--white-color);
+    font-size: 17px;
+  }
+  
+  #fcontact {
+    font-family: var(--font-base);
+    color: var(--white-color);
+    font-size: 18px;
+  }
+  
+  #fcontact-txt {
+    font-family: var(--font-base);
+    color: var(--white-color);
+    font-size: 17px;
+  }
+  
+  #footer-icon {
+    border-radius: 50%;
+  }
+  
+  #footer-icon:hover {
+    background-color: var(--primary-color);
+  }
+  
