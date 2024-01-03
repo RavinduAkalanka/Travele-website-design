@@ -18,3 +18,9 @@ This project aims to showcase a travel-themed single-page website with a clean a
 - Modern and visually appealing UI.
 - Easy-to-navigate sections for destinations, services, and contact.
 
+## How to Use
+
+1. Open the [Travel Single Page Website](https://ravinduakalanka.github.io/Travele-website-design/) link in your web browser.
+2. Explore the different sections of the website.
+
+
